@@ -1,0 +1,77 @@
+<!Doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="description" content="">
+<meta name="author" content="">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+<link rel="stylesheet" href="css/form.css">
+</head>
+<body>
+<div class="container">
+    <div class="row">
+            <h1>Volunteer with Us</h1>
+    </div>
+    <div class="row">
+            <h4 style="text-align:center;font-weight:bold;">We'd love to have you with us!</h4>
+    </div>
+    <form action="volunteer.php" method="post">
+    <div class="row input-container">
+            <div class="col-xs-12">
+                <div class="styled-input wide">
+                    <input type="text" name="name" required />
+                    <label>Name</label> 
+                </div>
+            </div>
+            <div class="col-md-6 col-sm-12">
+                <div class="styled-input">
+                    <input type="text" name="city" required />
+                    <label>City</label> 
+                </div>
+            </div>
+            <div class="col-md-6 col-sm-12">
+                <div class="styled-input" style="float:right;">
+                    <input type="text" name="contribution" required />
+                    <label>Contribution hrs/week:</label> 
+                </div>
+            </div>
+             <div class="col-md-6 col-sm-12">
+                <div class="styled-input">
+                    <input type="text" name="email" required />
+                    <label>Email</label> 
+                </div>
+            </div>
+            <div class="col-md-6 col-sm-12">
+                <div class="styled-input" style="float:right;">
+                    <input type="text" name="phone" required />
+                    <label>Phone</label> 
+                </div>
+            </div>
+            <div class="col-md-6 col-sm-12">
+                <div class="styled-input" >
+                    <input type="text" name="contribution" required />
+                    <label>Done workshops/Activities Related to </label>
+                    <input type="checkbox" name="gender" value="on"> Gender
+                    <input type="checkbox" name="leadership" value="on"> Leadership
+                    <input type="checkbox" name="leadership" value="on"> Communication
+                    <input type="checkbox" name="leadership" value="on"> Life Coach
+                    <input type="checkbox" name="leadership" value="on"> Organization Behaviour
+                    <input type="checkbox" name="leadership" value="on"> Counselling
+                    <input type="checkbox" name="leadership" value="on"> Others(Please specify)
+                </div>
+            </div>
+            <div class="col-md-6 col-sm-12">
+                <div class="styled-input" style="float:right;">
+                    <input type="text" name="phone" required />
+                    <label>Years of experience</label> 
+                    <input type="radio" name="years" value="on"> 0-1
+                    <input type="radio" name="years" value="on"> 2-5
+                    <input type="radio" name="years" value="on"> 6-7
+                </div>
+            </div>
+            <div class="col-xs-12">
+                <div class="btn-lrg submit-btn" style="background-color:black;color:white;">Send Message</div>
+            </div>
+    </div>
+    </form>
+</div>
